@@ -81,6 +81,7 @@ public class ViewDados extends JFrame {
 		lblNome.setBounds(20, 31, 46, 20);
 		panel_1.add(lblNome);
 		
+		//asds
 		try {
 			textFieldTelefone = new JFormattedTextField(new MaskFormatter("(##) #####-####"));
 		} catch (ParseException e2) {
